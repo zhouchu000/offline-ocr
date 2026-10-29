@@ -1,0 +1,9 @@
+Offline OCR
+Copyright 2026 Offline OCR contributors
+
+Application source code and original documentation are licensed under the
+Apache License, Version 2.0.
+
+Third-party libraries, model weights, fonts and icons retain their respective
+copyrights and licenses. They are not relicensed under the application license.
+See THIRD_PARTY_NOTICES.md, licenses/ and src/offline_word/assets/NotoSansSC-OFL.txt.

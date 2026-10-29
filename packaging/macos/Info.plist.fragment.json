@@ -1,0 +1,8 @@
+{
+  "CFBundleDisplayName": "离线图片转Word",
+  "CFBundleName": "离线图片转Word",
+  "CFBundleDevelopmentRegion": "zh_CN",
+  "CFBundleAllowMixedLocalizations": true,
+  "CFBundleLocalizations": ["zh_CN"],
+  "NSHighResolutionCapable": true
+}

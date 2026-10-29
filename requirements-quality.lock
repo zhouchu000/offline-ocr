@@ -1,0 +1,5 @@
+# Development only; install under toolchains/quality, never in the OCR payload.
+ruff==0.14.0
+pyright==1.1.407
+nodeenv==1.10.0
+typing_extensions==4.16.0

@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "models": {
+    "PP-OCRv6_medium_det": {
+      "archive": "PP-OCRv6_medium_det_infer.tar",
+      "url": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/PP-OCRv6_medium_det_infer.tar",
+      "sha256": "144d0621e059566e5086e228829171591c144c2deb07b2dad4962214fbabfcf7"
+    },
+    "PP-OCRv6_medium_rec": {
+      "archive": "PP-OCRv6_medium_rec_infer.tar",
+      "url": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/PP-OCRv6_medium_rec_infer.tar",
+      "sha256": "4eecc1c6a4623765042e6fc15446da0da110b7d875b6b72b2d351d2b2dbd4da6"
+    },
+    "PP-DocLayout_plus-L": {
+      "archive": "PP-DocLayout_plus-L_infer.tar",
+      "url": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/PP-DocLayout_plus-L_infer.tar",
+      "sha256": "80fff9c2fb598ca27380a48e733ac47ba022aaf06706ea9c39273ae63d7940dc"
+    },
+    "PP-LCNet_x1_0_doc_ori": {
+      "archive": "PP-LCNet_x1_0_doc_ori_infer.tar",
+      "url": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/PP-LCNet_x1_0_doc_ori_infer.tar",
+      "sha256": "282337df5c41f7cdf8dacd5acf71fddfdc10218399f4b318463c17f4eae96c97"
+    },
+    "PP-LCNet_x1_0_textline_ori": {
+      "archive": "PP-LCNet_x1_0_textline_ori_infer.tar",
+      "url": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/PP-LCNet_x1_0_textline_ori_infer.tar",
+      "sha256": "6171f69605215a85624d650e9079fa45f7c3eaf944296181bcc5395bf3ddc7f6"
+    },
+    "PP-LCNet_x1_0_table_cls": {
+      "archive": "PP-LCNet_x1_0_table_cls_infer.tar",
+      "url": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/PP-LCNet_x1_0_table_cls_infer.tar",
+      "sha256": "d00942b82838dd00b8a04f4db4f5cc0c146d27f4a56eb2fd3986de86e3e844bf"
+    },
+    "SLANeXt_wired": {
+      "archive": "SLANeXt_wired_infer.tar",
+      "url": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/SLANeXt_wired_infer.tar",
+      "sha256": "9803e7fb73f895846184ce18208503ca041b57f7d2cac6145bb302c76476f609"
+    },
+    "SLANet_plus": {
+      "archive": "SLANet_plus_infer.tar",
+      "url": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/SLANet_plus_infer.tar",
+      "sha256": "68526c5c6573a8a17cdc14805e026f11c2545e42d89a1317bb58d3e1e4b58318"
+    },
+    "RT-DETR-L_wired_table_cell_det": {
+      "archive": "RT-DETR-L_wired_table_cell_det_infer.tar",
+      "url": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/RT-DETR-L_wired_table_cell_det_infer.tar",
+      "sha256": "da4a5ec40f1d86fd00aa6dc739e8e9d18a575b9960c0798be3ec93c47025074d"
+    },
+    "RT-DETR-L_wireless_table_cell_det": {
+      "archive": "RT-DETR-L_wireless_table_cell_det_infer.tar",
+      "url": "https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/RT-DETR-L_wireless_table_cell_det_infer.tar",
+      "sha256": "6f0a78b0444fb0e50f7762a78c15ca38df6402b814558ef00dbcb1f5fc2a5a3d"
+    }
+  }
+}

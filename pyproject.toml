@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "offline-image-to-word"
+dynamic = ["version"]
+description = "Offline Chinese image OCR and editable DOCX desktop application"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md", "licenses/MiSans-License.pdf", "licenses/Fluent-UI-System-Icons.txt"]
+keywords = ["offline", "ocr", "chinese", "docx", "desktop"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Operating System :: Microsoft :: Windows",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Multimedia :: Graphics :: Capture :: Scanners",
+]
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "PySide6-Essentials==6.11.2; sys_platform == 'darwin'",
+  "PySide6-Essentials==6.8.3; sys_platform != 'darwin'",
+  "Pillow==11.3.0",
+  "numpy==1.26.4",
+  "opencv-contrib-python==4.10.0.84",
+  "python-docx==1.2.0",
+  "psutil==7.0.0",
+  "cryptography==50.0.1",
+]
+
+[project.optional-dependencies]
+ocr = ["paddleocr==3.7.0", "paddlex[ocr]==3.7.0", "paddlepaddle==3.3.0"]
+dev = ["pytest==8.4.2", "pytest-qt==4.5.0", "pyinstaller==6.16.0"]
+
+[project.gui-scripts]
+offline-word = "offline_word.__main__:main"
+
+[tool.setuptools.package-data]
+offline_word = ["assets/*.svg", "assets/*.ico", "assets/*.ttf", "assets/*-OFL.txt", "releases.json"]
+
+[tool.setuptools.dynamic]
+version = {attr = "offline_word.version.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E9", "F"]
+
+[tool.pyright]
+include = ["src/offline_word/domain.py", "src/offline_word/security.py", "src/offline_word/images.py", "src/offline_word/exporter.py"]
+pythonVersion = "3.12"
+typeCheckingMode = "basic"
+extraPaths = ["src"]

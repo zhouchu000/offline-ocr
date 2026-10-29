@@ -1,0 +1,66 @@
+{
+  "verified_date": "2026-10-13",
+  "weight_source": "models.lock.json pins official archives; models/manifest.json pins extracted files. Model card revisions below establish upstream license metadata, not different weights.",
+  "models": [
+    {
+      "model": "PP-OCRv6_medium_det",
+      "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_det",
+      "revision": "8e0f56fb2ef86b461d99cfc7ac5c137738985f61",
+      "license": "apache-2.0"
+    },
+    {
+      "model": "PP-OCRv6_medium_rec",
+      "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_rec",
+      "revision": "e5a92bcbc5cc1b494628e458d267778f0704fd7c",
+      "license": "apache-2.0"
+    },
+    {
+      "model": "PP-DocLayout_plus-L",
+      "url": "https://huggingface.co/PaddlePaddle/PP-DocLayout_plus-L",
+      "revision": "aa52b8528c84f9b1a34ac3a88fe0e576edb9d11d",
+      "license": "apache-2.0"
+    },
+    {
+      "model": "PP-LCNet_x1_0_doc_ori",
+      "url": "https://huggingface.co/PaddlePaddle/PP-LCNet_x1_0_doc_ori",
+      "revision": "d3b95a6dff5fe8a94f2748e12b61cb26818a0df8",
+      "license": "apache-2.0"
+    },
+    {
+      "model": "PP-LCNet_x1_0_textline_ori",
+      "url": "https://huggingface.co/PaddlePaddle/PP-LCNet_x1_0_textline_ori",
+      "revision": "cd237a44b0e359d4fe38310a416203cf7403faa5",
+      "license": "apache-2.0"
+    },
+    {
+      "model": "PP-LCNet_x1_0_table_cls",
+      "url": "https://huggingface.co/PaddlePaddle/PP-LCNet_x1_0_table_cls",
+      "revision": "2fa6323e7dab88fa883081db1460995f46af2922",
+      "license": "apache-2.0"
+    },
+    {
+      "model": "SLANeXt_wired",
+      "url": "https://huggingface.co/PaddlePaddle/SLANeXt_wired",
+      "revision": "763069fcda6a065f2171753205a32bf899a88d15",
+      "license": "apache-2.0"
+    },
+    {
+      "model": "SLANet_plus",
+      "url": "https://huggingface.co/PaddlePaddle/SLANet_plus",
+      "revision": "bae6e5f8c3c4e7da0c0b7639fdf3228fe76184e2",
+      "license": "apache-2.0"
+    },
+    {
+      "model": "RT-DETR-L_wired_table_cell_det",
+      "url": "https://huggingface.co/PaddlePaddle/RT-DETR-L_wired_table_cell_det",
+      "revision": "e2bd53c06b3a815d86acbf5c6779dada58819cfe",
+      "license": "apache-2.0"
+    },
+    {
+      "model": "RT-DETR-L_wireless_table_cell_det",
+      "url": "https://huggingface.co/PaddlePaddle/RT-DETR-L_wireless_table_cell_det",
+      "revision": "25ca86356a601c877476bb0dcc5fd09153d9d64d",
+      "license": "apache-2.0"
+    }
+  ]
+}
